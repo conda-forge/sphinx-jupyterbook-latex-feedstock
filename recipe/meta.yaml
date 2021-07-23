@@ -24,7 +24,7 @@ requirements:
     - sphinx >=3,<4
     - myst-nb >=0.11,<0.13
     - sqlalchemy >=1.3.12,<1.4
-    - importlib-resources
+    - importlib_resources
 
 test:
   requires:
