@@ -1,6 +1,6 @@
 {% set name = "sphinx-jupyterbook-latex" %}
 {% set pip_name = name.replace("-", "_") %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ pip_name }}/{{ pip_name }}-{{ version }}.tar.gz
-  sha256: 62d949b4fc5ba34f3b9ba7db974ad09fabbd5b9c596c8b3eb35ffc8b9cf3354c
+  sha256: b169ab271f512f45cea93587bd573f32f513eb744a680908874a2a60c62f6884
 
 build:
   noarch: python
