@@ -9,7 +9,6 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-jupyterb
 
 Summary: Sphinx-jupyterbook-latex: Supporting LaTeX infrastructure for Jupyter Book
 
-
 Development: https://github.com/executablebooks/sphinx-jupyterbook-latex
 
 Current build status
