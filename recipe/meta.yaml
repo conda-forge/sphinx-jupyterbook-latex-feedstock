@@ -24,7 +24,7 @@ requirements:
     - sphinx >=3,<5
     - importlib_resources
   run_constrained:
-    - myst-nb >=0.13,<0.14
+    - myst-nb >=0.13,<=0.16
 
 test:
   requires:
@@ -35,7 +35,6 @@ test:
     - sphinx_jupyterbook_latex
     - sphinx_jupyterbook_latex.theme
 
-
 about:
   home: https://github.com/executablebooks/sphinx-jupyterbook-latex
   license: BSD-3-Clause
@@ -43,7 +42,6 @@ about:
   summary: |
     Sphinx-jupyterbook-latex: Supporting LaTeX infrastructure for Jupyter Book
   dev_url: https://github.com/executablebooks/sphinx-jupyterbook-latex
-
 
 extra:
   recipe-maintainers:
