@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: sphinx-jupyterbook-latex
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinx_jupyterbook_latex/sphinx_jupyterbook_latex-{{ version }}.tar.gz
-  sha256: 404ad2129a254849096902f37dc174a0396e80484de58f7f2b05700b62249cb6
+  sha256: da1d3ad028f55ddbf10b9130bb9f24fc60cafb671cbd39dfd95537aafc90972e
 
 build:
   noarch: python
