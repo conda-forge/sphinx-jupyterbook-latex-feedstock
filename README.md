@@ -7,10 +7,7 @@ Home: https://github.com/executablebooks/sphinx-jupyterbook-latex
 
 Package license: BSD-3-Clause
 
-Summary: Sphinx-jupyterbook-latex: Supporting LaTeX infrastructure for Jupyter Book
-
-
-Development: https://github.com/executablebooks/sphinx-jupyterbook-latex
+Summary: Latex specific features for jupyter book
 
 Current build status
 ====================
