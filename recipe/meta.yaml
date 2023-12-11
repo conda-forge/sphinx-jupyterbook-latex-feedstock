@@ -11,18 +11,18 @@ source:
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python >=3.6
     - pip
+    - python >=3.9
   run:
-    - python >=3.6
-    - sphinx >=3,<5.1
-    - importlib_resources
+    - packaging
+    - python >=3.9
+    - sphinx >=5
   run_constrained:
-    - myst-nb >=0.13,<0.18
+    - myst-nb >=1.0.0
 
 test:
   requires:
@@ -37,9 +37,7 @@ about:
   home: https://github.com/executablebooks/sphinx-jupyterbook-latex
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: |
-    Sphinx-jupyterbook-latex: Supporting LaTeX infrastructure for Jupyter Book
-  dev_url: https://github.com/executablebooks/sphinx-jupyterbook-latex
+  summary: Latex specific features for jupyter book
 
 extra:
   recipe-maintainers:
